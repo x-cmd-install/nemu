@@ -36,7 +36,7 @@ Total: **22,068** lines of code across **123** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 605 · **Forks**: 30 · **Open issues**: 132 · **Contributors**: 16
+- **Stars**: 606 · **Forks**: 30 · **Open issues**: 132 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -46,22 +46,12 @@ Total: **22,068** lines of code across **123** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-03-17 | 1 | 4 | 0 | 0 | 2 | 8 |
-| 360d | 2025-09-18 | 2 | 15 | 1 | 2 | 3 | 24 |
-| last720d | 2024-09-23 | 2 | 27 | 1 | 13 | 5 | 38 |
-
-## Distribution status
-
-Reported by **81** distros on [repology.org](https://repology.org/project/nemu). **19** are ✅ on the latest upstream release, **58** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `3.5.0` | ✅ latest |
-| Nix unstable | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-03-18 | 1 | 4 | 0 | 0 | 2 | 8 |
+| 360d | 2025-09-19 | 2 | 15 | 1 | 2 | 3 | 24 |
+| last720d | 2024-09-24 | 2 | 27 | 1 | 13 | 5 | 38 |
 
 ## Improve this data
 
@@ -72,4 +62,4 @@ Install metadata for nemu lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:46:25Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:02:47Z._
