@@ -46,12 +46,12 @@ Total: **22,068** lines of code across **123** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-07-19 | 0 | 0 | 0 | 1 | 1 | 0 |
-| 90d | 2026-06-19 | 0 | 0 | 0 | 1 | 1 | 0 |
-| last180d | 2026-03-21 | 1 | 4 | 0 | 1 | 1 | 8 |
-| 360d | 2025-09-22 | 2 | 15 | 1 | 3 | 2 | 24 |
-| last720d | 2024-09-27 | 2 | 27 | 1 | 14 | 4 | 38 |
+| 30d | 2026-08-19 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-07-20 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 90d | 2026-06-20 | 0 | 0 | 0 | 1 | 1 | 0 |
+| last180d | 2026-03-22 | 1 | 4 | 0 | 1 | 1 | 8 |
+| 360d | 2025-09-23 | 2 | 15 | 1 | 3 | 2 | 24 |
+| last720d | 2024-09-28 | 2 | 27 | 1 | 14 | 4 | 38 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for nemu lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T06:04:24Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T05:57:44Z._
