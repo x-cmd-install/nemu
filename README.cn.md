@@ -4,25 +4,13 @@
 
 Ncurses UI for QEMU
 
-[![x-cmd/install — nemu Code Quality Monitoring Repo Card](https://repo.x-cmd.io/nemu.svg?lang=zh)](https://x-cmd.com/install/nemu)
+[![x-cmd/install — nemu Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/nemu.svg?lang=zh)](https://x-cmd.com/install/nemu)
 
 ## 安装
 
 ```sh
 x install nemu
 ```
-
-## 代码洞察
-
-合计: **22,068** 行代码（覆盖前 5 种语言、共 **123** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 16,088 | 287 | 3,391 | 42 |
-| CHeader | 1,768 | 82 | 403 | 40 |
-| CMake | 1,169 | 144 | 194 | 15 |
-| Ebuild | 1,146 | 63 | 185 | 21 |
-| Python | 725 | 5 | 117 | 5 |
 
 ## 源代码
 
@@ -46,12 +34,12 @@ x install nemu
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 0 | 1 | 1 | 0 |
-| 90d | 2026-06-24 | 0 | 0 | 0 | 1 | 1 | 0 |
-| last180d | 2026-03-26 | 1 | 4 | 0 | 1 | 1 | 8 |
-| 360d | 2025-09-27 | 2 | 15 | 1 | 3 | 2 | 24 |
-| last720d | 2024-10-02 | 2 | 27 | 1 | 14 | 4 | 38 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 90d | 2026-06-25 | 0 | 0 | 0 | 1 | 1 | 0 |
+| last180d | 2026-03-27 | 1 | 4 | 0 | 1 | 1 | 8 |
+| 360d | 2025-09-28 | 2 | 15 | 1 | 3 | 2 | 24 |
+| last720d | 2024-10-03 | 2 | 27 | 1 | 14 | 4 | 38 |
 
 ## 改进这些数据
 
@@ -62,4 +50,4 @@ nemu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:05:03Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:10:45Z._
