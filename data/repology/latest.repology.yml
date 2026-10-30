@@ -1,23 +1,28 @@
-- repo: chimera
-  subrepo: main
+- repo: terra_rawhide
   srcname: nemu
-  binname: nemu-locale
-  visiblename: nemu-locale
+  binname: nemu-zsh-completion
+  visiblename: nemu-zsh-completion
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-2.fcrawhide
   status: newest
-  summary: Ncurses UI for QEMU (locale data)
+  summary: Zsh completion for nemu
+  maintainers:
+    - git@olivia.sh
   licenses:
     - BSD-2-Clause
-- repo: chimera
-  subrepo: main
+  categories:
+    - Unspecified
+- repo: alpine_3_17
+  subrepo: community
   srcname: nemu
-  binname: nemu-man
-  visiblename: nemu-man
-  version: 3.5.0
-  origversion: 3.5.0-r0
-  status: newest
-  summary: Ncurses UI for QEMU (manual pages)
+  binname: nemu
+  visiblename: nemu
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: outdated
+  summary: Ncurses UI for QEMU
+  maintainers:
+    - txgk@bk.ru
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_17
@@ -55,30 +60,6 @@
   origversion: 3.1.0-r0
   status: outdated
   summary: Ncurses UI for QEMU (documentation)
-  maintainers:
-    - txgk@bk.ru
-  licenses:
-    - BSD-2-Clause
-- repo: nix_stable_25_05
-  srcname: nemu
-  visiblename: nemu
-  version: 3.3.1
-  origversion: null
-  status: outdated
-  summary: Ncurses UI for QEMU
-  maintainers:
-    - moritz.sanft@outlook.de
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_17
-  subrepo: community
-  srcname: nemu
-  binname: nemu
-  visiblename: nemu
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: outdated
-  summary: Ncurses UI for QEMU
   maintainers:
     - txgk@bk.ru
   licenses:
@@ -678,6 +659,28 @@
 - repo: chimera
   subrepo: main
   srcname: nemu
+  binname: nemu-locale
+  visiblename: nemu-locale
+  version: 3.5.0
+  origversion: 3.5.0-r0
+  status: newest
+  summary: Ncurses UI for QEMU (locale data)
+  licenses:
+    - BSD-2-Clause
+- repo: chimera
+  subrepo: main
+  srcname: nemu
+  binname: nemu-man
+  visiblename: nemu-man
+  version: 3.5.0
+  origversion: 3.5.0-r0
+  status: newest
+  summary: Ncurses UI for QEMU (manual pages)
+  licenses:
+    - BSD-2-Clause
+- repo: chimera
+  subrepo: main
+  srcname: nemu
   binname: nemu-zshcomp
   visiblename: nemu-zshcomp
   version: 3.5.0
@@ -801,6 +804,17 @@
   licenses:
     - BSD-2-Clause
 - repo: nix_stable_24_11
+  srcname: nemu
+  visiblename: nemu
+  version: 3.3.1
+  origversion: null
+  status: outdated
+  summary: Ncurses UI for QEMU
+  maintainers:
+    - moritz.sanft@outlook.de
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_05
   srcname: nemu
   visiblename: nemu
   version: 3.3.1
@@ -1039,17 +1053,3 @@
     - BSD-2-Clause
   categories:
     - Development/Debug
-- repo: terra_rawhide
-  srcname: nemu
-  binname: nemu-zsh-completion
-  visiblename: nemu-zsh-completion
-  version: 3.5.0
-  origversion: 3.5.0-2.fcrawhide
-  status: newest
-  summary: Zsh completion for nemu
-  maintainers:
-    - git@olivia.sh
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
