@@ -1,30 +1,3 @@
-- repo: terra_rawhide
-  srcname: nemu
-  binname: nemu-zsh-completion
-  visiblename: nemu-zsh-completion
-  version: 3.5.0
-  origversion: 3.5.0-2.fcrawhide
-  status: newest
-  summary: Zsh completion for nemu
-  maintainers:
-    - git@olivia.sh
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: alpine_3_17
-  subrepo: community
-  srcname: nemu
-  binname: nemu
-  visiblename: nemu
-  version: 3.1.0
-  origversion: 3.1.0-r0
-  status: outdated
-  summary: Ncurses UI for QEMU
-  maintainers:
-    - txgk@bk.ru
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_3_17
   subrepo: community
   srcname: nemu
@@ -60,6 +33,19 @@
   origversion: 3.1.0-r0
   status: outdated
   summary: Ncurses UI for QEMU (documentation)
+  maintainers:
+    - txgk@bk.ru
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_17
+  subrepo: community
+  srcname: nemu
+  binname: nemu
+  visiblename: nemu
+  version: 3.1.0
+  origversion: 3.1.0-r0
+  status: outdated
+  summary: Ncurses UI for QEMU
   maintainers:
     - txgk@bk.ru
   licenses:
@@ -629,7 +615,7 @@
   binname: nemu
   visiblename: nemu
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-r1
   status: newest
   summary: Ncurses UI for QEMU
   licenses:
@@ -640,7 +626,7 @@
   binname: nemu-bashcomp
   visiblename: nemu-bashcomp
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-r1
   status: newest
   summary: Ncurses UI for QEMU (bash completions)
   licenses:
@@ -651,7 +637,7 @@
   binname: nemu-doc
   visiblename: nemu-doc
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-r1
   status: newest
   summary: Ncurses UI for QEMU (documentation)
   licenses:
@@ -662,7 +648,7 @@
   binname: nemu-locale
   visiblename: nemu-locale
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-r1
   status: newest
   summary: Ncurses UI for QEMU (locale data)
   licenses:
@@ -673,7 +659,7 @@
   binname: nemu-man
   visiblename: nemu-man
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-r1
   status: newest
   summary: Ncurses UI for QEMU (manual pages)
   licenses:
@@ -684,7 +670,7 @@
   binname: nemu-zshcomp
   visiblename: nemu-zshcomp
   version: 3.5.0
-  origversion: 3.5.0-r0
+  origversion: 3.5.0-r1
   status: newest
   summary: Ncurses UI for QEMU (zsh completions)
   licenses:
@@ -778,6 +764,20 @@
     - BSD-2
   categories:
     - app-emulation
+- repo: terra_rawhide
+  srcname: nemu
+  binname: nemu
+  visiblename: nemu
+  version: 3.5.0
+  origversion: 3.5.0-2.fcrawhide
+  status: newest
+  summary: Ncurses UI for QEMU
+  maintainers:
+    - git@olivia.sh
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
 - repo: liguros_develop
   srcname: app-emulation/nemu
   visiblename: app-emulation/nemu
@@ -971,20 +971,6 @@
     - Unspecified
 - repo: terra_rawhide
   srcname: nemu
-  binname: nemu
-  visiblename: nemu
-  version: 3.5.0
-  origversion: 3.5.0-2.fcrawhide
-  status: newest
-  summary: Ncurses UI for QEMU
-  maintainers:
-    - git@olivia.sh
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: terra_rawhide
-  srcname: nemu
   binname: nemu-bash-completion
   visiblename: nemu-bash-completion
   version: 3.5.0
@@ -1053,3 +1039,17 @@
     - BSD-2-Clause
   categories:
     - Development/Debug
+- repo: terra_rawhide
+  srcname: nemu
+  binname: nemu-zsh-completion
+  visiblename: nemu-zsh-completion
+  version: 3.5.0
+  origversion: 3.5.0-2.fcrawhide
+  status: newest
+  summary: Zsh completion for nemu
+  maintainers:
+    - git@olivia.sh
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
